@@ -21,6 +21,9 @@ under the terms of the GNU General Public License as published by the Free Softw
 either version 3 of the License, or (at your option) any later version.
 """
 
+#: The current version of this package.
+__version__ = '0.0.1-dev'
+
 import numpy as np
 
 def probabilistic_serial_mechanism(R):
