@@ -11,7 +11,7 @@ from codecs import open
 from os import path
 
 #: Installation requirements.
-requirements = ['numpy', 'networkx>=2.0']
+requirements = ['numpy']
 
 here = path.abspath(path.dirname(__file__))
 
@@ -23,9 +23,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='generalized_birkhoff_von_neumann',  # Required
-    version='0.0.2.dev1',  # Required
-    description='A generalized Birkoff von Neumann decomposition',  # Required
+    name='probabilistic_serial_mechanism',  # Required
+    version='0.0.1.dev1',  # Required
+    description='The probabilistic serial mechanism',  # Required
     long_description=__doc__,  # Optional
     url='https://github.com/abclark/generalized_birkhoff_von_neumann',  # Optional
     author='Aubrey Clark',  # Optional
