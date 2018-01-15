@@ -24,7 +24,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='probabilistic_serial_mechanism',  # Required
-    version='0.0.1.dev1',  # Required
+    version='0.0.1',  # Required
     description='The probabilistic serial mechanism',  # Required
     long_description=__doc__,  # Optional
     url='https://github.com/abclark/probabilistic_serial_mechanism',  # Optional
