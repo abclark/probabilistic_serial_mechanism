@@ -22,11 +22,11 @@ either version 3 of the License, or (at your option) any later version.
 """
 
 #: The current version of this package.
-__version__ = '0.0.1-dev'
+__version__ = '0.0.1-dev1'
 
 import numpy as np
 
-def probabilistic_serial_mechanism(R):
+def probabilistic_mechanism(R):
   m = np.ones(len(R[0]))
   P={}
   for key, value in R.items():
