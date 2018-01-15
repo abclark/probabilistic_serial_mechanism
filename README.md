@@ -12,7 +12,7 @@
 #
 # R = {0: [0,1,2], 1: [2,1,0]}
 
-probabilistic_serial_mechanism(R)</code></pre>
+probabilistic_mechanism(R)</code></pre>
         
 <h3>Mathematical background</h3>
        
@@ -20,8 +20,8 @@ probabilistic_serial_mechanism(R)</code></pre>
 
 <h3>API</h3>
          
- <pre><code>>>> from probabilistic_serial_mechanism import probabilistic_serial_mechanism
+ <pre><code>>>> from probabilistic_serial_mechanism import probabilistic_mechanism
 >>> R = {0: [0,1,2], 1: [2,1,0]}
->>> probabilistic_serial_mechanism(R)
+>>> probabilistic_mechanism(R)
 {0: array([ 1. ,  0.5,  0. ]), 1: array([ 0. ,  0.5,  1. ])}
 >>> </code></pre>
