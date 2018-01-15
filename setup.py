@@ -24,10 +24,10 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='probabilistic_serial_mechanism',  # Required
-    version='0.0.2.dev1',  # Required
+    version='0.0.1.dev1',  # Required
     description='The probabilistic serial mechanism',  # Required
     long_description=__doc__,  # Optional
-    url='https://github.com/abclark/generalized_birkhoff_von_neumann',  # Optional
+    url='https://github.com/abclark/probabilistic_serial_mechanism',  # Optional
     author='Aubrey Clark',  # Optional
     author_email='aubs.bc@gmail.com',  # Optional
     # You can just specify package directories manually here if your project is
